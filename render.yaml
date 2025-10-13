@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: qr-id-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python qr_id_bot.py
+    plan: free

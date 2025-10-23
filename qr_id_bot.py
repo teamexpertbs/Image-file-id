@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, MessageHandler, CommandHandler, filters, ContextTypes
 from keep_alive import keep_alive
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN ="8410757797:AAFkltxNJ_kaXcofkVCl-8tVdeYP2qK_evk"
 
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
